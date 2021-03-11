@@ -1,0 +1,23 @@
+
+---
+
+- name: package htop
+      apt:
+        name: htop
+        state: present
+    - name: package zsh
+      apt:
+        name: zsh
+        state: present
+    - name: installation de git
+      apt:
+        name: git
+        state: present
+ ...
+
+
+
+
+
+
+
