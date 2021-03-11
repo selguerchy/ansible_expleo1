@@ -2,17 +2,20 @@
 - name: installation de htop
   hosts: all
   tasks:
-    - name: package htop
+    - name : package htop
       apt: 
         name: htop
         state: present
 
- - name: installation zsh
-   apt:
+     - name : installation zsh
+       apt:
         name: zsh
         state: present
 
- - name: installation de git
-    apt:
-        name: git
-        state: present 
+      - name : installation de git
+        apt:
+         name: git
+         state: present
+ 
+     
+...
